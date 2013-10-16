@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:onClick="postNotification" />
+
+    <Button
+        android:id="@+id/startAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START AUTO"
+        android:onClick="startAlarm" />
+
+    <Button
+        android:id="@+id/stopAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP AUTO"
+        android:onClick="stopAlarm" />
+
+</LinearLayout>
